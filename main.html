@@ -4,10 +4,59 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div class="container">
+  <h2>Carousel Example</h2>  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+		<li data-target="#myCarousel" data-slide-to="3"></li>
+		<li data-target="#myCarousel" data-slide-to="4"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active first-slide">
+        <img src="https://i.insider.com/632b8343f576c60018fc28c4?width=700" alt="Los Angeles" style="width:100%;">
+      </div>
+
+      <div class="item second-slide">
+        <img src="https://www.travelandleisure.com/thmb/wwUPgdpCUuD5sAPFLQf4YasjH0M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicago-illinois-CHITG0221-e448062fc5164da0bba639f9857987f6.jpg" alt="Chicago" style="width:100%;">
+      </div>
+    
+      <div class="item third-slide">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu.jpg/1200px-View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu.jpg" alt="New york" style="width:100%;">
+      </div>
+
+		<div class="item fourth-slide">
+        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/475000/475527-California.jpg" alt="california" style="width:100%;">
+      </div>
+
+		<div class="item fifth-slide">
+        <img src="https://www.travelandleisure.com/thmb/PqUvjM8pkVtVJ7PIecXMeBVKYTc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/mexico-city-MEXICOCITYTG0521-a25bef718b924f12b7ea483ea872934b.jpg" alt="mexico" style="width:100%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
